@@ -7,6 +7,4 @@ app = Flask(__name__)
 def test():
     return {"reuslt" : "test_success"}
 
-# github
-
 app.run(host='0.0.0.0', port=8080, debug=True)
