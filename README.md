@@ -13,3 +13,5 @@ ubuntu : ubuntu20.04
 * 상품 정보 저장 API
 * 회원 정보 저장후 조회 API
 * mysql 연결 테스트 API
+* API를 이용해서 Jinja2로 동적 웹페이지 만들기
+* csv 파일을 이용해서 웹페이지로 출력
