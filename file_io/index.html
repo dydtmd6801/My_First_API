@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Input Date : {{ input_date }}</h1>
+    <table border=1 style="border-collapse: collapse;">
+        <tbody>
+        {% for i in range(24) %}
+        <!-- <li>{{ date[i]["datetime"] }}</li>
+        <li>{{ date[i]["132-702"] }}</li> -->
+        <tr>
+            <td>{{date[i]["datetime"]}}</td>
+            <td>{{date[i]["132-702"]}}</td>
+            <td>{{date[i]["127-3404"]}}</td>k
+            <td>{{date[i]["107-1803"]}}</td>
+            <td>{{date[i]["122-2602"]}}</td>
+            <td>{{date[i]["134-801"]}}</td>
+            <td>{{date[i]["126-803"]}}</tr>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
